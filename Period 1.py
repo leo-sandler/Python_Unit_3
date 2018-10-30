@@ -1,4 +1,5 @@
 def hello_print(first_half):
-    print("Hello World")
+    second_half = " World!"
 
-hello_print()
+    return(first_half + second_half)
+

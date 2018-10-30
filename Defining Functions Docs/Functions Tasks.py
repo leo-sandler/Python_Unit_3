@@ -27,8 +27,7 @@ def comp_checking(num_1, num_2):
         print("False")
 
 
-print(comp_nums())
-# Not sure why this states none after running, but it works properly.
+comp_nums()
 
 # Task 3
 
@@ -79,7 +78,7 @@ def main():
     elif menu_input == "t" or menu_input == "T":
         temp_converter()
     elif menu_input == "S" or menu_input == "s":
-        exit()
+        print("Stopped")
     else:
         print("Please enter a valid option")
         main()
@@ -87,9 +86,25 @@ def main():
     if restart == "Y" or restart == "y" or restart == "Yes" or restart == "yes":
         main()
     else:
-        exit()
+        print("next")
 
 
 main()
 
 # Task 4
+
+
+def string_and_letter():
+    string = str(input("Please input a string: "))
+    letter = str(input("Please input a letter: "))
+    comp_ls(string, letter)
+
+
+def comp_ls(string, letter):
+    if letter in string:
+        print("True")
+    else:
+        print("False")
+
+
+string_and_letter()

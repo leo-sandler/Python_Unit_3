@@ -3,3 +3,5 @@ def hello_print(first_half):
 
     return(first_half + second_half)
 
+
+print(hello_print("Hello"))

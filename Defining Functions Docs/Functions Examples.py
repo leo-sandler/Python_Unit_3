@@ -80,9 +80,9 @@ def trick_or_treat(inner):
     print("Wait 2 seconds...")
     time.sleep(2)
     if inner == 1:
-        return "Trick"
+        return "Python chose:  Trick"
     elif inner == 2:
-        return "Treat"
+        return "Python chose:  Treat"
 
 
 print(trick_or_treat(inner))
@@ -97,4 +97,4 @@ def spooky_ad(user_str):
     return spook
 
 
-print("Hello" + spooky_ad(user_str))
+print("HELLO " + spooky_ad(user_str).upper())
